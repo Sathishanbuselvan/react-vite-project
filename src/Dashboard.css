@@ -1,0 +1,44 @@
+BODY{
+    background-color: rgb(156, 161, 221);
+}
+.dashboard > div{
+    /* margin-left: 50px; */
+    /* color: blue; */
+    background-color: rgb(208, 214, 214);
+    align-content: center;
+    border: 0px solid #f1eaea ;
+    border-radius: 15px;
+
+    text-align: center;
+    cursor: pointer;
+    /* height: 400px; */
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   row-gap: 15px;
+    column-gap: 15px;
+
+}
+
+
+img{
+    margin: 50px  0px 30px;
+    
+}
+
+h2{
+    font-size: xx-large;
+    color: rgb(160, 4, 4);
+    text-shadow: 2px 2px;
+    border-radius: 15px;
+    border: 0px solid rgb(223, 217, 217);
+    background-color: rgb(208, 214, 214);
+    width: 98%;
+    height: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* margin: 50px; */
+}

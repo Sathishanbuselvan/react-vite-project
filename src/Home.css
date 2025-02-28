@@ -1,0 +1,40 @@
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    padding: 30px;
+   font-size: 30px;
+   cursor: pointer;
+   
+}
+
+.nav{
+    color: blue;
+    border: 0px solid;
+    background-color: rgb(80, 199, 120);
+    height: 40px;
+    text-align: center;
+}
+
+.container{
+    /* height: 100px;
+    width: 150px; */
+    padding: 30PX;
+    background-color: rgb(150, 218, 195);
+    text-align: center;
+    color:rgb(197, 27, 27);
+    text-shadow: rgb(241, 35, 190) 3px 3px;
+
+    
+}
+button{
+    margin: 30px 0px 40px 0px;
+    background-color: hotpink;
+    height: 50px;
+    width: 110px;
+    font-weight: 900;
+    font-size: x-large;
+    border-radius: 15px;
+    border: 0ch;
+}

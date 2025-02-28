@@ -1,0 +1,104 @@
+h2 {
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+.menu-area {
+    display: flex;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+
+    p {
+        color: rgb(141, 139, 136);
+        font-family: system-ui;
+
+    }
+
+
+}
+
+.menu-nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px;
+
+    span {
+        margin: 10px 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        font-weight: 500;
+        color: rgb(117, 117, 117);
+    }
+
+}
+
+.menu-nav>span:hover,
+span:active {
+    font-size: 150%;
+    color: #f5a637;
+}
+
+
+.cards-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    p {
+        color: rgb(141, 139, 136);
+        font-family: system-ui;
+
+    }
+
+
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    align-items: center;
+
+
+
+
+    column-gap: 20px;
+
+    /* padding: 20px; */
+
+}
+
+.feature-dish {
+    text-align: center;
+    width: 600px;
+
+    margin: 150px auto auto;
+
+    p {
+        color: rgb(141, 139, 136);
+        font-family: system-ui;
+
+    }
+
+
+}
+
+.feature-dish-card {
+    display: flex;
+    text-align: center;
+
+
+    img,
+    p {
+        padding: auto;
+        margin: 10px 70px;
+
+        color: rgb(141, 139, 136);
+        font-family: system-ui;
+
+
+
+    }
+
+}

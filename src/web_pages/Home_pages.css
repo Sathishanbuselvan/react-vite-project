@@ -1,0 +1,112 @@
+.body-data img,
+.content-area {
+
+    height: 90vh;
+    width: 100vw;
+    color: cornsilk;
+
+
+}
+
+.content-area {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-area {
+    display: flex;
+    justify-content: space-around;
+    top: 10px;
+    position: fixed;
+    /* border: 1px solid; */
+    width: 99%;
+    height: 80px;
+    cursor: pointer;
+
+
+}
+
+.left-nav {
+    font-size: 0.9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 30px;
+
+    span {
+        margin: 20px 10px;
+    }
+}
+
+.center-nav {
+    margin: auto;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: xxx-large;
+
+}
+
+.rig-nav {
+    font-size: 0.9rem;
+    padding: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    span {
+        margin: 0px 10px;
+    }
+}
+
+.main-content {
+    text-align: center;
+    /* margin: inherit; */
+    margin-top: 150px;
+
+    span {
+        color: #ffdf2c;
+    }
+
+    p {
+        font-weight: 500;
+        font-family: system-ui;
+
+    }
+
+    h1 {
+        font-style: italic;
+        font-size: 5rem;
+        font-weight: 900;
+
+    }
+}
+
+.navbar {
+    /* border: #ffdf2c 1px solid; */
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.locat-icon {
+    /* color: darkgrey; */
+    margin-top: -30px;
+    margin-left: 950px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    p {
+        color: #ffdf2c;
+    }
+
+}
+
+.icons {
+    margin: 10px 10px 0px 70px;
+    color: cornsilk;
+
+}
+
+.icon-simbol {
+    color: #ffdf2c;
+}
