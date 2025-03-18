@@ -18,16 +18,16 @@ function Home_pages() {
         <>
 
             <div className="body-data">
+                <div className="bg-image">
+                 <img src={bgImage} alt="background-image" />
+                </div>
 
-                <img src={bgImage} alt="background-image" />
 
                  {/* Navbar section */}
 
                 <div className="content-area">
-
                     <div className="nav-area">
-
-                        <div className="left-nav">
+                        <div className="left-nav nav-list">
                             <span>ABOUT_US</span>
                             <span>MENU</span>
                             <span>RESERVATION</span>
@@ -36,48 +36,38 @@ function Home_pages() {
                             <span> Touche</span>
                         </div>
 
-                        <div className="rig-nav">
+                        <div className="rig-nav nav-list">
                             <span>NEWS & EVENTS</span>
                             <span>GALLERY</span>
                             <span>CONTACT</span>
                         </div>
-
-
                     </div>
-
-                    {/* Main-content */}
 
                     <div className="main-content">
                         <p><span>CAFE </span>/ RESTAURANT </p>
                         <h1>Touche</h1>
                         <p>A unique cafe located in the heart of Los Always fresh coffee and <br></br> biscuits. Open for indoor dining and to-go orders.</p>
-
-                    </div>
+                        </div>
 
                     <nav className="navbar ">
                        <button><Link to="./online_Reservation">MAKE RESEVATION</Link></button> 
                     </nav>
 
+                    <div className="content-footer">
+                        <div className="icon-list">
+                            <TwitterIcon className="icons" />
+                            <FacebookIcon className="icons" />
+                            <InstagramIcon className="icons" />
+                        </div>
 
-                    <div >
-                        <TwitterIcon className="icons" />
-                        <FacebookIcon className="icons" />
-                        <InstagramIcon className="icons" />
+                        <div className="location-area">
+                            <LocationOnIcon className="icon-simbol" /> <div>1234 Altschul Los Angeles, CA 10027-0000</div>
 
-
-                    </div>
-
-                    <div>
-                        <p className="locat-icon"><LocationOnIcon className="icon-simbol" /> 1234 Altschul Los Angeles, CA 10027-0000</p>
-
+                        </div>
                     </div>
                 </div>
-
-
-            </div>
-
-
-
+            
+            
             <div>
                 <Cards />
                 <Menu_option />
@@ -86,10 +76,11 @@ function Home_pages() {
                 <Footer />
             </div>
 
+            </div> 
+
 
         </>
     )
-
 }
 
 export default Home_pages

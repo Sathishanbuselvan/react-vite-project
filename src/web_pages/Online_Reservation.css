@@ -1,19 +1,14 @@
 .resvation-head {
-
     background-color: rgb(240, 244, 245);
     text-align: center;
     height: 500px;
     margin: 100px 0px;
     padding: 30px;
 
-
     h2 {
         font-weight: normal;
         font-size: xx-large;
     }
-
-
-
     p {
         margin-top: 100px;
         width: 600px;
@@ -25,36 +20,26 @@
     }
 }
 
-
-
 .from-list {
-
     text-align: center;
     display: grid;
     column-gap: 20px;
     row-gap: 20px;
     grid-template-columns: auto auto;
     justify-content: center;
-
-
-
 }
 
 
 .form-control {
     width: 300px;
     padding: 10px;
-
-
 }
 
 .form-control-options {
     width: 320px;
-
 }
 
 
 .form-inline {
     margin-top: 30px;
-
 }

@@ -7,7 +7,6 @@ import gallery_img4 from "../assets/gallery img/th.webp"
 import gallery_img5 from "../assets/gallery img/OIP.webp"
 import gallery_img6 from "../assets/gallery img/th (3).webp"
 import gallery_img7 from "../assets/gallery img/OIP (4).webp"
-import gallery_img8 from "../assets//gallery img/OIP (3)..webp"
 import gallery_img9 from "../assets//gallery img/download.webp"
 import gallery_img10 from "../assets//gallery img/download1.webp"
 
@@ -15,7 +14,8 @@ import gallery_img10 from "../assets//gallery img/download1.webp"
 
 function Gallery() {
 	return (
-		<><div className="gallery-title">
+		<div className='gallery-area'>
+		<div className="gallery-title">
 			<h2>Our gallery</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 		</div>
@@ -33,10 +33,9 @@ function Gallery() {
 					<img className='img-container' src={gallery_img4} style={{ height: "300px" }} alt="ecdm" />
 				</div>
 				<div className="colm3 colm">
-					<img className='img-container' src={gallery_img6} style={{ height: "400px" }} alt="ecdm" />
-					<img className='img-container' src={gallery_img7} style={{ height: "300px" }} alt="ecdm" />
-					<img className='img-container' src={gallery_img8} style={{ height: "375px" }} alt="ecdm" />
-					<img className='img-container' src={gallery_img9} style={{ height: "200px" }} alt="ecdm" />
+					<img className='img-container' src={gallery_img6} style={{ height: "450px" }} alt="ecdm" />
+					<img className='img-container' src={gallery_img7} style={{ height: "350px" }} alt="ecdm" />
+					<img className='img-container' src={gallery_img9} style={{ height: "500px" }} alt="ecdm" />
 				</div>
 
 			</div>
@@ -52,7 +51,7 @@ function Gallery() {
 				</div>
 
 			</div>
-		</>
+		</div>
 	)
 }
 

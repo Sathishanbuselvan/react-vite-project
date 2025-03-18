@@ -20,7 +20,6 @@ function Footer() {
 
                 <div className="contact">
                     <span className='footer-container'>CANTACT INFO</span>
-
                     <p><LocationOnIcon /> 1234 Altschul Los Angeles, CA 10027-0000</p>
                     <p><CallIcon />  +1 987 654 3210</p>
                     <div className='mail'>

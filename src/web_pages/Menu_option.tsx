@@ -5,7 +5,6 @@ import img1 from '../chat img/OIP1.webp'
 import img2 from '../chat img/OIP2.webp'
 import img3 from '../chat img/OIP3.webp'
 import img4 from '../chat img/OIP4.webp'
-import img5 from '../chat img/OIP5.webp'
 import img6 from "../chat img/OIP 6.webp"
 import img7 from '../chat img/OIP7.webp'
 import img8 from '../chat img/indian-samosa.webp'
@@ -19,12 +18,10 @@ function Menu_option() {
             </div>
 
             <div className="menu-nav">
-
                 <span>MAINS</span>
                 <span>LUNCH</span>
                 <span>DINNER</span>
                 <span>DRINKS</span>
-
             </div>
 
             <div className="cards-area">
@@ -137,8 +134,6 @@ function Menu_option() {
                     <span>$-60</span>
                 </div>
 
-
-
                 <div>
                     <img src={img} style={{ height: 200, width: 200 }} alt="wjdkgwiud" />
                     <section>
@@ -165,9 +160,7 @@ function Menu_option() {
                     </section>
                     <span>$-70</span>
                 </div>
-
-
-
+                
             </div>
 
 

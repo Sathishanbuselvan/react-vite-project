@@ -11,10 +11,7 @@ function Home() {
         <h1>
           WELCOME TO PANDIYAN STORE
         </h1>
-      
         <Link to="/login">start</Link>
-        
-       
       </div>
         </div>
         </>
